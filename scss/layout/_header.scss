@@ -5,17 +5,3 @@
   padding: 20px 0;
   text-align: center;
 }
-.topnav {
-  text-align: center;
-  li {
-    display: inline-block;
-    a {
-      display: block;
-      color: map-get($color, secondary);
-      text-transform: uppercase;
-      text-decoration: none;
-      line-height: 60px;
-      padding: 0 20px;
-    }
-  }
-}

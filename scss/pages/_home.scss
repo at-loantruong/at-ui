@@ -19,18 +19,12 @@
   text-align: center;
   background: url(./images/line_star.png) no-repeat 50% 100%;
 }
-
+.comment {
+  p {
+    margin-bottom: 0;
+  }
+}
 @include respond-below(small) {
-  .topnav {
-    .menu-item {
-      display: none;
-    }
-  }
-  .logo {
-    width: 80%;
-    text-align: center;
-    display: block;
-  }
   .form-group {
     width: 100%;
   }
