@@ -1,0 +1,37 @@
+.contact-form {
+  .container {
+    padding: 90px 15px;
+    border-bottom: 2px solid map-get($color, border);
+    margin-bottom: 1px;
+  }
+}
+.list-users {
+  .container {
+    border-top: 1px solid map-get($color, border);
+    padding: 90px 0;
+  }
+
+}
+.home-title {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin: 0 0 50px;
+  text-align: center;
+  background: url(./images/line_star.png) no-repeat 50% 100%;
+}
+
+@include respond-below(small) {
+  .topnav {
+    .menu-item {
+      display: none;
+    }
+  }
+  .logo {
+    width: 80%;
+    text-align: center;
+    display: block;
+  }
+  .form-group {
+    width: 100%;
+  }
+}
