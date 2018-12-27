@@ -137,6 +137,12 @@ button, .btn {
   text-align: center; }
   .group-button .btn {
     margin-left: 20px; }
+  .group-button .btn-medium {
+    width: 160px;
+    position: relative; }
+    .group-button .btn-medium i {
+      position: absolute;
+      left: 15px; }
 
 .view-more {
   margin-top: 30px; }
@@ -411,6 +417,53 @@ textarea {
 
 .comment p {
   margin-bottom: 0; }
+
+.alert {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-align: left;
+  padding: 15px 0;
+  max-width: 500px;
+  right: 0;
+  position: absolute;
+  display: none;
+  box-sizing: border-box;
+  border: 1px solid transparent; }
+  .alert .alert-icon {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background: #3c763d;
+    display: inline-block;
+    text-align: center; }
+  .alert .alert-content {
+    padding: 0 60px; }
+    .alert .alert-content p {
+      margin-bottom: 0; }
+  .alert .alert-close {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%); }
+
+.alert-success {
+  background-image: -webkit-linear-gradient(top, #dff0d8 0, #c8e5bc 100%);
+  background-image: -o-linear-gradient(top, #dff0d8 0, #c8e5bc 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dff0d8), to(#c8e5bc));
+  background-image: linear-gradient(to bottom, #dff0d8 0, #c8e5bc 100%);
+  background-repeat: repeat-x;
+  border-color: #b2dba1;
+  color: #3c763d; }
 
 @media (max-width: 479px) {
   .form-group {
